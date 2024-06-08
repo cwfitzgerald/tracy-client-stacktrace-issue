@@ -7,4 +7,4 @@ edition = "2021"
 enable = []
 
 [dependencies]
-tracy-client = { version = "0.17.0", features = ["manual-lifetime"] }
+tracy-client = { version = "0.17.0", features = ["enable", "manual-lifetime"], default-features = false }
