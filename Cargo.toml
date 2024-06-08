@@ -1,0 +1,10 @@
+[package]
+name = "tracy-client-stacktrace"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+enable = []
+
+[dependencies]
+tracy-client = "0.17.0"
